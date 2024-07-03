@@ -28,7 +28,7 @@ int encode_endpoint(
   float xmin = clipx;
   float xmax = clipx + clipw;
   float ymin = clipy;
-  float ymax = clipy + clipw;
+  float ymax = clipy + cliph;
 
   if (x < xmin)       /* to left of clip window */
     code |= (1 << 0);
